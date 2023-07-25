@@ -4,6 +4,13 @@ body{
     margin: 0;
     min-width: 400px;
 }
+h3{
+    margin: 5px 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #125dff;
+}
 #input-box{
     width: 100%;
     border: 1px solid #125dff;
@@ -12,7 +19,7 @@ body{
     font-size: 20px;
     box-sizing: border-box;
 }
-#save-btn{
+button{
     margin-top: 7px;
     padding: 5px 10px;
     font-size: 15px;
@@ -24,20 +31,23 @@ body{
     cursor: pointer;
 }
 
-#save-btn:hover{
-    background-color: #0e4a9a;
+#save-btn:hover,#tab-btn:hover{
+    background-color: #1dc2a6;
+    border: none;
 }
 
 #clear-btn{
-    margin-top: 7px;
     padding: 4px 10px;
-    font-size: 15px;
     background-color: #ffffff;
-    font-weight: bold;
     border: 1px solid #125dff;
-    border-radius: 5px;
     color: #0e4a9a;
-    cursor: pointer;
+}
+
+#clear-btn:hover{
+    padding: 5px 10px;
+    background-color: #ff1212;
+    color: white;
+    border: none;
 }
 
 ul{

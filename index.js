@@ -1,34 +1,44 @@
-let Urls = []
+let myUrls = []
 const saved = document.querySelector('#save-btn')
 const url = document.querySelector('#input-box')
 const listU = document.querySelector('#list')
 const clear = document.querySelector('#clear-btn')
-const savedUrls = JSON.parse(localStorage.getItem('ListUrls'))
+const tab = document.querySelector('#tab-btn')
+const savedUrls = JSON.parse(localStorage.getItem('myUrls'))
 
 if(savedUrls){
-    Urls = savedUrls
-    renderUrls()
+    myUrls = savedUrls
+    render(myUrls)
 }
 
-clear.addEventListener('dblclick',function(){
-    localStorage.clear()
-    Urls = []
-    renderUrls()
-})
-
-saved.addEventListener("click", function(){
-    Urls.push(url.value)
-    localStorage.setItem('ListUrls',JSON.stringify(Urls))
-    url.value=""
-    renderUrls()
-})
-
-function renderUrls(){
-    let ListUrls = ""
+function render(Urls){
+    let StringUrls = ""
     for(let i = 0;i <Urls.length; i++){
-        ListUrls += `<li> <a href='${Urls[i]}' target='_blank'> 
+        StringUrls += `<li> <a href='${Urls[i]}' target='_blank'> 
         ${Urls[i]}
         </a> </li>`
     }
-    listU.innerHTML = ListUrls
+    listU.innerHTML = StringUrls
 }
+
+tab.addEventListener('click', function(){
+    chrome.tabs.query({active:true,currentWindow:true}, function(tabs){
+        myUrls.push(tabs[0].url)
+        localStorage.setItem('myUrls',JSON.stringify(myUrls))
+        render(myUrls)
+    })
+    
+})
+
+clear.addEventListener('dblclick',function(){
+    localStorage.clear()
+    myUrls = []
+    render(myUrls)
+})
+
+saved.addEventListener("click", function(){
+    myUrls.push(url.value)
+    localStorage.setItem('myUrls',JSON.stringify(myUrls))
+    url.value=""
+    render(myUrls)
+})
