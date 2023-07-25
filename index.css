@@ -14,8 +14,9 @@ body{
 #save-btn{
     margin-top: 7px;
     padding: 5px 10px;
-    font-size: 20px;
+    font-size: 15px;
     background-color: #125dff;
+    font-weight: bold;
     border: none;
     border-radius: 5px;
     color: white;
