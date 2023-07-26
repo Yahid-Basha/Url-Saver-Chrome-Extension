@@ -24,9 +24,11 @@ URL Saver is a powerful Chrome extension that allows you to effortlessly save UR
 ### Images
 *Screenshot of the Extension Popup:*
 
-![Extension Popup](url_saver_pro_popup.png)
+<img width="427" alt="image" src="https://github.com/Yahid-Basha/Url-Saver-Chrome-Extension/assets/97111767/110cd8f7-c155-4445-bb21-98aba044f1e3">
 
 *Screenshot of the Saved URLs List:*
+
+<img width="434" alt="image" src="https://github.com/Yahid-Basha/Url-Saver-Chrome-Extension/assets/97111767/770382ec-a206-4469-af37-27c4051b87db">
 
 ### How to Contribute
 If you have any suggestions, bug reports, or feature requests, feel free to create an issue or submit a pull request on our GitHub repository. We welcome contributions from the community to make URL Saver even better!
