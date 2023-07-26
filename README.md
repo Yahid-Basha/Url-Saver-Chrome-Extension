@@ -7,7 +7,8 @@ URL Saver is a powerful Chrome extension that allows you to effortlessly save UR
 
 ### Features
 - **Save URLs:** Quickly save URLs by manually entering them or directly capturing the current open tab URL.
-- **Clear and Start Over:** Easily clear the saved URLs when you no longer need them or want to start anew.
+- **Clear and Start Over:**  [Double Click clear]Easily clear the saved URLs when you no longer need them or want to start anew.
+- **Sorting:** You can sort the urls based on their titles in both orders [double click for reverse order]
 - **Upcoming Features:**
   - Organize URLs: Categorize and tag saved URLs to keep them well-organized for future reference.
   - Export URLs: Save your URL collection to a file for backup or sharing with others.
@@ -24,11 +25,14 @@ URL Saver is a powerful Chrome extension that allows you to effortlessly save UR
 ### Images
 *Screenshot of the Extension Popup:*
 
-<img width="427" alt="image" src="https://github.com/Yahid-Basha/Url-Saver-Chrome-Extension/assets/97111767/110cd8f7-c155-4445-bb21-98aba044f1e3">
+<img width="542" alt="image" src="https://github.com/Yahid-Basha/Url-Saver-Chrome-Extension/assets/97111767/a934fff3-e1e7-4c80-a2ec-45101cd0b8ed">
 
 *Screenshot of the Saved URLs List:*
 
-<img width="434" alt="image" src="https://github.com/Yahid-Basha/Url-Saver-Chrome-Extension/assets/97111767/770382ec-a206-4469-af37-27c4051b87db">
+<img width="593" alt="image" src="https://github.com/Yahid-Basha/Url-Saver-Chrome-Extension/assets/97111767/02431fce-eff6-4316-a165-fc9fbe94bf8a">
+
+
+![ezgif com-gif-maker](https://github.com/Yahid-Basha/Url-Saver-Chrome-Extension/assets/97111767/afa49a5a-0f4c-4319-8944-c0d565d953e1)
 
 ### How to Contribute
 If you have any suggestions, bug reports, or feature requests, feel free to create an issue or submit a pull request on our GitHub repository. We welcome contributions from the community to make URL Saver even better!
