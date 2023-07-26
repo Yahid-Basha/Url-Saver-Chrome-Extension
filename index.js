@@ -31,6 +31,7 @@ saved.addEventListener("click", function(){
     myUrls.push(obj)
     localStorage.setItem('myUrls',JSON.stringify(myUrls))
     url.value=""
+    saveAs.value=""
     render(myUrls)
 })
 
